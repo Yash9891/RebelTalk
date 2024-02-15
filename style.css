@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* //89190416319729 */
+body{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    background-color: black;
+}
+.main{
+    width: 80%;
+}
+.container{
+    display: flex;
+}
+.first{
+    border-right: 0.2px solid rgb(46, 45, 45);
+    width: 70%;
+
+}
+.second{
+    border-right: 0.2px solid rgb(46, 45, 45);
+    width: 100%;
+   
+
+}
+.third{
+    
+    width: 100%;
+ 
+
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}
+.sidebar{
+    position: sticky;
+    top: 0;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sidebarItems li{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 1.2rem;
+    list-style: none;
+    
+}
+.sidebarItems li:hover{
+    cursor: pointer;
+    color:rgb(171, 171, 177);
+
+    
+}
+.sidebarItems{
+    width: 50%;
+}
+.sidebarItems li span{
+    padding-right: 10px;
+    
+}
+.logo{
+   margin: 20px 0 20px 0;
+    font-size: 1.2rem;
+    
+}
+.search{
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    
+    
+}
+.search input{
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    border-radius: 0.9rem;
+    padding: 7px;
+    font-size: 1.2rem;
+    background-color: rgb(27, 29, 42);
+
+}
+.whats{
+    border-radius: 1rem;
+    padding: 15px 15px 20px 15px;
+    margin: 10px 0 10px 10px;
+    background-color: rgb(27, 29, 42);
+    width: 60%;
+}
+.whats h3{
+    font-size: 1.3rem;
+    font-weight: 900;
+  
+}
+.items{
+    margin-top:20px;
+}
+.trend{
+    font-size: 0.7rem;
+    
+    color: rgb(181, 181, 185);
+}
+.items div{
+    
+    font-weight: 700;
+    padding: 3px;
+}
+.items:hover{
+   
+    cursor: pointer;
+    background-color: rgb(38, 40, 54);
+}
+.topflex{
+   
+    padding: 5px;
+    padding-bottom: 0;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.left{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.right{
+    width: 45%;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.hover:hover{
+    cursor: pointer;
+    background-color:rgb(27, 27, 27);
+}
+.settings{
+    display: flex;
+    font-size: 1.2rem;
+    
+    width: 10%;
+}
+.line{
+    height: 0.5px;
+    background-color: rgb(43, 43, 43);
+
+}
+.whatis{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.whatis input{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+   
+    
+    
+}
+.whatis img{
+    border-radius: 50%;
+    height: 67px;
+   width: 67px;
+}
+.textblue{
+    padding-left: 125px;
+    display: flex;
+    align-items: center;
+    color: rgb(89, 188, 241);
+}
+.textblue span{
+    cursor: pointer;
+    padding: 5px;
+}
+.line2{
+    height: 1.8px;
+    background-color: rgb(62, 62, 62);
+}
+.line3{
+    margin-left: 130px;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 60%;
+    background-color: rgb(50, 50, 50);
+}
+.icons{
+    padding-left: 130px;
+    color: rgb(89, 188, 241);
+
+}
+.icons span{
+    cursor: pointer;
+}
+.button button{
+    margin-top: 5px;
+    border: none;
+    color: white;
+    border-radius: 1.4rem;
+    padding: 7px 30px 7px 30px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: rgb(44, 169, 231);
+
+}
+.im{
+    margin: 7px;
+    border-radius: 50%;
+   
+   width: 50px;
+}
+.flexi{
+    display: flex;
+}
+.content{
+    margin-top: 20px;
+    margin-left: 7px;
+    margin-right: 15px;
+}
+.content img{
+   margin: 15px 0 15px 0;
+    width: 340px;
+    border-radius: 1rem;
+
+}
+.iconso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.iconi{
+    font-size: 1rem;
+    color: rgb(218, 216, 216);
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 1000px) {
+    .hidden{
+        display: none;
+
+    
+    }
+}
+@media only screen and (max-width: 1182px) {
+    .sidebarItems li{
+        
+        padding: 10px;
+        font-size: 0.8rem;      
+    }
+}
+@media only screen and (max-width: 970px) {
+    .logo{
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 525px) {
+    .logo{
+        font-size: 0.7rem;
+    }
+    .content img{
+      
+         width: 300px;
+         border-radius: 1rem;
+     
+     }
+     .im{
+        width: 42px;
+     }
+     .button button{
+
+        border-radius: 1.4rem;
+        padding: 5px 20px 5px 20px;
+        font-size: 0.7rem;
+        font-weight: 600;
+        background-color: rgb(44, 169, 231);
+    
+    }
+    .search input{
+        padding: 5px;
+        font-size: 0.9rem;
+   
+    }
+    .whats h3{
+        font-size: 0.9rem;
+    }
+    .whatis input{
+   
+        font-size: 1rem;     
+    }
+    .whatis img{
+      
+        height: 57px;
+       width: 57px;
+    }
+    
+}
+@media only screen and (max-width: 443px) {
+    .sticky{
+       
+        display: none;
+    }
+    .content img{
+        margin-right: 20px;
+    }
+    
+    .iconso{
+        margin-right: 20px;
+
+    }
+}
